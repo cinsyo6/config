@@ -12,6 +12,10 @@ spring:
     active: MSSql
   application:
     name: admin
+  servlet:
+    multipart:
+      maxFileSize: 1000MB
+      maxRequestSize: 1000MB
   cloud:
       inetutils:
         ignored-interfaces:
@@ -58,6 +62,8 @@ spring:
     timeout: 1000
   mvc:
     date-format: yyyy-MM-dd HH:mm:ss
+    async:
+      request-timeout: 100000
   jackson:
     default-property-inclusion: ALWAYS
     time-zone: GMT+8
