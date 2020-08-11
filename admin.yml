@@ -97,6 +97,7 @@ eureka:
       enabled: true
     serviceUrl:
       defaultZone: http://${eureka.servername}:${eureka.serverport}/eureka/
+      
 fdfs:
   soTimeout: 15000 #socket连接超时时长
   connectTimeout: 6000 #连接tracker服务器超时时长
