@@ -103,4 +103,5 @@ fdfs:
   connectTimeout: 6000 #连接tracker服务器超时时长
   resHost: 36.133.97.90
   storagePort: 8888
-  trackerList: 36.133.97.90:22122
+  trackerList: 
+    - 36.133.97.90:22122
