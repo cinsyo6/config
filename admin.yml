@@ -99,8 +99,8 @@ eureka:
       defaultZone: http://${eureka.servername}:${eureka.serverport}/eureka/
       
 fdfs:
-  soTimeout: 15000 #socket连接超时时长
-  connectTimeout: 6000 #连接tracker服务器超时时长
+  soTimeout: 1500000 #socket连接超时时长
+  connectTimeout: 600000 #连接tracker服务器超时时长
   resHost: 47.108.203.35
   storagePort: 8888
   trackerList: 
